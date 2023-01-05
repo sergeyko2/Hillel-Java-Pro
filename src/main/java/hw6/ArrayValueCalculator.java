@@ -4,11 +4,14 @@ public class ArrayValueCalculator {
 
     public static void main(String[] args) {
         String[][] myArray = {
-                {"25", "35", "-48", "47"},
-                {"84", "37", "41", "14"},
-                {"25", "-69", "24", "18"},
-                {"84", "37", "25", "14"},
-//                {"84", "37", "ss", "14"},
+//                {"25", "35", "-48", "47"},
+//                {"84", "37", "41", "14"},
+//                {"25", "-69", "24", "18"},
+//                {"84", "37", "25", "14"},
+                {"1", "XXX", "567", "1234"},
+                {"45"},
+                {"45", "998", "567", "1234"},
+                {"45", "998", "567", "456"}
         };
 
         try {
@@ -20,12 +23,14 @@ public class ArrayValueCalculator {
         }
     }
 
-    private static int doCalc(String[][] myArray) throws ArraySizeException, ArrayDataException {
+    private static int doCalc(String[][] myArray) {
         int sum = 0;
-            for (int line = 0; line < myArray.length; line++)
+        int arrayLength = myArray.length;
+            for (int line = 0; line < arrayLength; line++)
                 for (int column = 0; column < myArray[line].length; column ++) {
-                    if (myArray.length != 4 || myArray[line].length != 4)
+                    if (arrayLength != 4 || myArray[line].length != 4) {
                         throw new ArraySizeException();
+                    }
                     try {
                         sum += Integer.parseInt(myArray[line][column]);
                     }
