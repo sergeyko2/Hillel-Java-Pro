@@ -2,6 +2,7 @@ package hw8;
 
 public class FileLoggerConfiguration {
 
+
     private String fileName = "src\\main\\resources\\hw8\\log.txt";
     private LoggingLevel currentLoggingLevel = LoggingLevel.DEBUG;
     private double maxSizeByte = 500;
@@ -21,5 +22,6 @@ public class FileLoggerConfiguration {
 
     public String getFormatWrite() {
         return formatWrite;
+
     }
 }

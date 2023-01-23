@@ -2,6 +2,7 @@ package hw8;
 
 public class FileLogger {
 
+
     private FileLoggerConfiguration config;
 
     void debug(String report) {
@@ -21,5 +22,6 @@ public class FileLogger {
         }
 
     }
+
 
 }
