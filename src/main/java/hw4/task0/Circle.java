@@ -1,7 +1,7 @@
-package task0;
+package hw4.task0;
 
 public class Circle implements Figure {
-    private double radius;
+    private final double radius;
 
     public Circle(double radius) {
         this.radius = radius;

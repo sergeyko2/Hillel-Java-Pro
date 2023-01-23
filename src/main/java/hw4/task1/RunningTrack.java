@@ -1,7 +1,7 @@
-package task1;
+package hw4.task1;
 
 public class RunningTrack implements Barrier {
-    private double length;
+    private final double length;
 
     public RunningTrack(double length) {
         this.length = length;

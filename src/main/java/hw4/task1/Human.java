@@ -1,7 +1,7 @@
-package task1;
+package hw4.task1;
 
 public class Human implements Participant {
-    private String personalName;
+    private final String personalName;
 
     public Human(String personalName) {
         this.personalName = personalName;

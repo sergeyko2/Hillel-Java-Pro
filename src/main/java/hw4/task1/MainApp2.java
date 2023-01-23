@@ -1,4 +1,4 @@
-package task1;
+package hw4.task1;
 
 public class MainApp2 {
     public static void main(String[] args) {

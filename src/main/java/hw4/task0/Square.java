@@ -1,7 +1,7 @@
-package task0;
+package hw4.task0;
 
 public class Square implements Figure {
-    private double width;
+    private final double width;
 
     public Square(double width) {
         this.width = width;
