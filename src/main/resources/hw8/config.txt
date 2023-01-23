@@ -1,0 +1,4 @@
+FILE: src\\main\\resources\\hw8\\log.txt
+LEVEL: DEBUG
+MAX-SIZE: 500
+FORMAT: [ПОТОЧНИЙ_ЧАС][DEBUG] Повідомлення: [СТРОКА-ПОВІДОМЛЕННЯ]
