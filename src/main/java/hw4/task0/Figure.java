@@ -1,4 +1,4 @@
-package task0;
+package hw4.task0;
 
 public interface Figure {
 

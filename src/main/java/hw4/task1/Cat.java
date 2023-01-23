@@ -1,7 +1,7 @@
-package task1;
+package hw4.task1;
 
 public class Cat implements Participant {
-    private String personalName;
+    private final String personalName;
 
     public Cat(String personalName) {
         this.personalName = personalName;

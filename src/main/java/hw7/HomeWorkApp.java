@@ -16,14 +16,14 @@ public class HomeWorkApp {
 
     private static void printThreeWords() {
         String[] fruits = {"Orange", "Banana", "Apple"};
-        for (String fruit:fruits)
+        for (String fruit : fruits)
             System.out.println(fruit);
     }
 
     private static void checkSumSign() {
         int a = 254;
         int b = -35;
-        if (a+b >= 0) {
+        if (a + b >= 0) {
             System.out.println("The sum is positive");
         } else System.out.println("The amount is negative");
     }

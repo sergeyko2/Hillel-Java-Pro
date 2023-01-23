@@ -1,7 +1,7 @@
-package task1;
+package hw4.task1;
 
 public class Wall implements Barrier {
-    private double height;
+    private final double height;
 
     public Wall(double height) {
         this.height = height;
