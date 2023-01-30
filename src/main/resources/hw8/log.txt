@@ -1,5 +1,0 @@
-[18:00:28][INFO] Message: The system has resumed from sleep.
-[18:00:30][INFO] Message: 222222222222
-[18:00:32][DEBUG] Message: 3333333333
-[18:00:32][INFO] Message: 3333333333
-[18:00:33][INFO] Message: 4444444444
