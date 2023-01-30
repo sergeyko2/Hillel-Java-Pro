@@ -1,0 +1,20 @@
+[03:00:37][DEBUG] Message: Firmware S3 times. SuspendStart: 0, SuspendEnd: 0
+[03:00:37][INFO] Message: Firmware S3 times. SuspendStart: 0, SuspendEnd: 0
+[03:00:40][DEBUG] Message: Offline downlevel migration succeeded.
+[03:00:40][INFO] Message: Offline downlevel migration succeeded.
+[03:00:42][DEBUG] Message: Dump after return from D3 after cmd
+[03:00:42][INFO] Message: Dump after return from D3 after cmd
+[03:00:47][DEBUG] Message: Change Reason: System time synchronized with the hardware clock
+[03:00:47][INFO] Message: Change Reason: System time synchronized with the hardware clock
+[03:00:54][DEBUG] Message: The bootmgr spent 0 ms waiting for user input.
+[03:00:54][INFO] Message: The bootmgr spent 0 ms waiting for user input.
+[03:00:54][DEBUG] Message: The system has resumed from sleep.
+[03:00:54][INFO] Message: The system has resumed from sleep.
+[03:00:58][DEBUG] Message: Firmware S3 times. SuspendStart: 0, SuspendEnd: 0
+[03:00:58][INFO] Message: Firmware S3 times. SuspendStart: 0, SuspendEnd: 0
+[03:01:05][DEBUG] Message: Firmware S3 times. SuspendStart: 0, SuspendEnd: 0
+[03:01:05][INFO] Message: Firmware S3 times. SuspendStart: 0, SuspendEnd: 0
+[03:01:08][DEBUG] Message: The bootmgr spent 0 ms waiting for user input.
+[03:01:08][INFO] Message: The bootmgr spent 0 ms waiting for user input.
+[03:01:09][DEBUG] Message: Scan started on selected drives and folders and all extensions.
+[03:01:09][INFO] Message: Scan started on selected drives and folders and all extensions.
