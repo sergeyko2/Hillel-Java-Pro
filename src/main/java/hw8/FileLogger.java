@@ -24,11 +24,11 @@ public class FileLogger {
         writerLog(report, LoggingLevel.INFO);
     }
 
-    private void writerLog(String report, LoggingLevel loggingLevel) {
+    private void writerLog(String message, LoggingLevel loggingLevel) {
         try (FileWriter fileLog = new FileWriter(config.getFileName(), true)) {
             checkSizeFile(new File(config.getFileName()));
             DateFormat time = new SimpleDateFormat("HH:mm:ss");
-            fileLog.write("[" + time.format(new Date()) + "][" + loggingLevel + "] Message: " + report + "\n");
+            fileLog.write("[" + time.format(new Date()) + "][" + loggingLevel + "] Message: " + message + "\n");
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }

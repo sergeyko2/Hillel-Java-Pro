@@ -25,11 +25,11 @@ public class MainApp {
         FileLogger fileLogger = new FileLogger(config);
 
         for (int i = 1; i <= 10; i++) {
-            String report = exampleLogs[random.nextInt(0, numberLogs)];
+            String message = exampleLogs[random.nextInt(0, numberLogs)];
             if (config.getCurrentLoggingLevel() == LoggingLevel.DEBUG) {
-                fileLogger.debug(report);
+                fileLogger.debug(message);
             } else {
-                fileLogger.info(report);
+                fileLogger.info(message);
             }
             Thread.sleep(random.nextLong(10000));
         }
