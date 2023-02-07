@@ -35,22 +35,19 @@ public class MainApp {
     private static List<Product> getBookDiscount(List<Product> products) {
         System.out.println("\nAll BOOKS with discount (10%):");
         return products.stream()
-                .filter(product -> BOOK == product.getProductType())
+                .filter(product -> BOOK.equals(product.getProductType()))
                 .filter(Product::isDiscount)
-                .peek(product -> product.setPrice(product.getPrice() * 0.9))
+                .map(product -> new Product(product.getProductType(), product.getPrice() * 0.9, product.isDiscount(), product.getDateAdded()))
                 .toList();
     }
 
-    private static List<Product> getBookCheapest(List<Product> products) {
+    private static List<Product> getBookCheapest(List<Product> products){
         System.out.println("\nCheapest product:");
-        try {
-            return products.stream()
-                    .filter(product -> BOOK == product.getProductType())
-                    .min(Comparator.comparing(Product::getPrice))
-                    .stream().toList();
-        } catch (Exception e) {
-            throw new NullPointerException(e.getMessage() + "\nProduct BOOK not found");
-        }
+        return products.stream()
+                .filter(product -> BOOK.equals(product.getProductType()))
+                .min(Comparator.comparing(Product::getPrice))
+                .stream().toList();
+
     }
 
     private static List<Product> getThreeMostRecentlyAdded(List<Product> products) {
@@ -63,7 +60,7 @@ public class MainApp {
 
     private static double getCalSomeProductsThisYear(List<Product> products) {
         return products.stream()
-                .filter(product -> product.dateAdded.compareTo(LocalDate.of(2023, 1, 1)) >= 0)
+                .filter(product -> !product.getDateAdded().isBefore(LocalDate.of(2023, 1, 1)))
                 .filter(product -> BOOK.equals(product.getProductType()))
                 .filter(product -> product.getPrice() > 75)
                 .mapToDouble(Product::getPrice)
