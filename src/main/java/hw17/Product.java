@@ -20,11 +20,7 @@ public class Product {
         return productType;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public double getPrice() {
+     public double getPrice() {
         return price;
     }
 
