@@ -27,7 +27,7 @@ public class MainApp {
     private static List<Product> getBookPrice250(List<Product> products) {
         System.out.println("\nAll BOOKS with price > 250:");
         return products.stream()
-                .filter(product -> BOOK == product.getProductType())
+                .filter(product -> BOOK.equals(product.getProductType()))
                 .filter(product -> product.getPrice() > 250)
                 .toList();
     }
