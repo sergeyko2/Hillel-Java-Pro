@@ -4,7 +4,6 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static hw17.ProductType.*;
 
@@ -30,7 +29,7 @@ public class MainApp {
         return products.stream()
                 .filter(product -> BOOK == product.getProductType())
                 .filter(product -> product.getPrice() > 250)
-                .collect(Collectors.toList());
+                .toList();
     }
 
     private static List<Product> getBookDiscount(List<Product> products) {
@@ -39,7 +38,7 @@ public class MainApp {
                 .filter(product -> BOOK == product.getProductType())
                 .filter(Product::isDiscount)
                 .peek(product -> product.setPrice(product.getPrice() * 0.9))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     private static List<Product> getBookCheapest(List<Product> products) {
@@ -48,7 +47,7 @@ public class MainApp {
             return products.stream()
                     .filter(product -> BOOK == product.getProductType())
                     .min(Comparator.comparing(Product::getPrice))
-                    .stream().collect(Collectors.toList());
+                    .stream().toList();
         } catch (Exception e) {
             throw new NullPointerException(e.getMessage() + "\nProduct BOOK not found");
         }
@@ -59,12 +58,12 @@ public class MainApp {
         return products.stream()
                 .sorted(Comparator.comparing(Product::getDateAdded).reversed())
                 .limit(3)
-                .collect(Collectors.toList());
+                .toList();
     }
 
     private static double getCalSomeProductsThisYear(List<Product> products) {
         return products.stream()
-                .filter(product -> product.dateAdded.compareTo(LocalDate.of(2022, 01, 01)) >= 0)
+                .filter(product -> product.dateAdded.compareTo(LocalDate.of(2023, 1, 1)) >= 0)
                 .filter(product -> BOOK.equals(product.getProductType()))
                 .filter(product -> product.getPrice() > 75)
                 .mapToDouble(Product::getPrice)

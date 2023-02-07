@@ -3,6 +3,7 @@ package hw17;
 import java.time.LocalDate;
 
 public class Product {
+
     LocalDate dateAdded;
     private ProductType productType;
     private double price;
