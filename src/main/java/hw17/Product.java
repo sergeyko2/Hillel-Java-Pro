@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Product {
 
-    LocalDate dateAdded;
+    private LocalDate dateAdded;
     private ProductType productType;
     private double price;
     private boolean discount;
