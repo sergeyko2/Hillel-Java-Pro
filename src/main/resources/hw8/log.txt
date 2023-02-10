@@ -17,4 +17,9 @@
 [03:01:08][DEBUG] Message: The bootmgr spent 0 ms waiting for user input.
 [03:01:08][INFO] Message: The bootmgr spent 0 ms waiting for user input.
 [03:01:09][DEBUG] Message: Scan started on selected drives and folders and all extensions.
-[03:01:09][INFO] Message: Scan started on selected drives and folders and all extensions.
+[08:28:08][DEBUG] Message: The system has resumed from sleep.
+[08:28:08][INFO] Message: The system has resumed from sleep.
+[08:28:09][DEBUG] Message: Lso was triggered
+[08:28:09][INFO] Message: Lso was triggered
+[08:28:11][DEBUG] Message: The system has resumed from sleep.
+[08:28:11][INFO] Message: The system has resumed from sleep.
