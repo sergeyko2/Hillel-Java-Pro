@@ -23,3 +23,5 @@
 [08:28:09][INFO] Message: Lso was triggered
 [08:28:11][DEBUG] Message: The system has resumed from sleep.
 [08:28:11][INFO] Message: The system has resumed from sleep.
+[09:28:20][DEBUG] Message: Change Reason: System time synchronized with the hardware clock
+[09:28:20][INFO] Message: Change Reason: System time synchronized with the hardware clock
