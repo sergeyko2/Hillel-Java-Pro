@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PhoneBook {
-    private List<Record> phoneBook = new ArrayList<>();
+    private List<RecordEntry> phoneBook = new ArrayList<>();
 
-    public void add(Record record) {
-        phoneBook.add(record);
+    public void add(RecordEntry recordEntry) {
+        phoneBook.add(recordEntry);
     }
 
-    public Record find(String nameFind) {
-        for (Record record : phoneBook) {
-            if (record.getName().equals(nameFind)) return record;
+    public RecordEntry find(String nameFind) {
+        for (RecordEntry recordEntry : phoneBook) {
+            if (recordEntry.getName().equals(nameFind)) return recordEntry;
         }
         return null;
     }

@@ -1,10 +1,10 @@
 package hw9.phonebook;
 
-public class Record {
-    private String name;
-    private String phone;
+public class RecordEntry {
+    private final String name;
+    private final String phone;
 
-    public Record(String name, String phone) {
+    public RecordEntry(String name, String phone) {
         this.name = name;
         this.phone = phone;
     }
