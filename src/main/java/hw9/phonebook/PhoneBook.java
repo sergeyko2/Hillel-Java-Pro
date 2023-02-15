@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PhoneBook {
-    private final List<RecordEntry> recordEntries = new ArrayList<>();
+
+private final List<RecordEntry> recordEntries = new ArrayList<>();
 
     public void add(RecordEntry recordEntry) {
         recordEntries.add(recordEntry);
