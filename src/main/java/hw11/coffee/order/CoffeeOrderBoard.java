@@ -20,15 +20,11 @@ public class CoffeeOrderBoard {
     }
 
     public void deliver(int number) {
-        for (Order order : orderList) {
-            if (order.getNumber() == number) {
-                System.out.printf("Order #%d for %s is now issued",
-                        order.getNumber(), order.getClient());
-                System.out.println();
-                orderList.remove(order);
-                return;
-            }
-        }
+        orderList.stream()
+                .filter(order -> order.getNumber() == number)
+                .forEach(order -> System.out.printf("Order #%d for %s is now issued\n",
+                        order.getNumber(), order.getClient()));
+        orderList.removeIf(order -> order.getNumber() == number);
     }
 
     public void add(Order order) {
