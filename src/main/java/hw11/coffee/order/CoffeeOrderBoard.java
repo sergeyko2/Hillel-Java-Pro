@@ -5,6 +5,7 @@ import java.util.List;
 
 public class CoffeeOrderBoard {
     private List<Order> orderList = new ArrayList<>();
+    private int totalNumber = 1;
 
     public void deliver() {
         if (orderList.isEmpty()) {
@@ -31,8 +32,11 @@ public class CoffeeOrderBoard {
     }
 
     public void add(Order order) {
-        order.setNumber(orderList.size() + 1);
+        order.setNumber(totalNumber++);
         orderList.add(order);
+        System.out.printf("NEW Order #%d for %s",
+                order.getNumber(), order.getClient());
+        System.out.println();
     }
 
     public void draw() {

@@ -10,13 +10,17 @@ public class MainApp {
         board.add(new Order("Maxim"));
         board.add(new Order("Mykola"));
         board.add(new Order("Yaroslav"));
-
         board.draw();
 
         board.deliver();
         board.deliver(4);
         board.deliver();
+        board.add(new Order("Nikita"));
+        board.deliver();
+        board.draw();
 
+        board.deliver(7);
+        board.add(new Order("Kseniia"));
         board.draw();
     }
 }
