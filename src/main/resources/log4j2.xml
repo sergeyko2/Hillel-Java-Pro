@@ -29,9 +29,9 @@
         <AsyncLogger name="org.hibernate" level="error"/>
         <AsyncLogger name="org.springframework" level="error"/>
 
-        <Root level="DEBUG" includeLocation="true">
-            <AppenderRef ref="STDOUT" level="DEBUG"/>
-            <AppenderRef ref="PROGRAM-LOGGER-APPENDER" level="DEBUG"/>
+        <Root level="TRACE" includeLocation="true">
+            <AppenderRef ref="STDOUT" level="TRACE"/>
+            <AppenderRef ref="PROGRAM-LOGGER-APPENDER" level="TRACE"/>
         </Root>
     </Loggers>
 </Configuration>

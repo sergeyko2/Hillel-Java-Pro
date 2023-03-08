@@ -8,49 +8,46 @@ import java.util.List;
 
 public class CoffeeOrderBoard {
     private static final Logger log = LoggerFactory.getLogger(CoffeeOrderBoard.class);
-    private List<Order> orderList = new ArrayList<>();
+    private List<Order> queueOrder = new ArrayList<>();
     private int totalNumber = 1;
 
     public void deliver() {
-        if (orderList.isEmpty()) {
-            System.out.println("No order!");
-            log.info("Empty list orders");
+        if (queueOrder.isEmpty()) {
+            log.trace("Empty list orders");
             return;
         }
-        Order currentOrder = orderList.get(0);
-        log.info("Current order for delivery: " + currentOrder);
-        System.out.printf("Order #%d for %s is now issued",
+        Order currentOrder = queueOrder.get(0);
+        log.trace("Current order for delivery: {}", currentOrder);
+        log.trace("Order {} for {} is now issued",
                 currentOrder.getNumber(), currentOrder.getClient());
-        System.out.println();
-        orderList.remove(0);
-        log.info("Completed order `" + currentOrder + "' has been successfully deleted");
+        queueOrder.remove(0);
+        log.trace("Completed order `{}' has been successfully deleted", currentOrder);
     }
 
     public void deliver(int number) {
-        orderList.stream()
+        queueOrder.stream()
                 .filter(order -> order.getNumber() == number)
-                .forEach(order -> System.out.printf("Order #%d for %s is now issued\n",
-                        order.getNumber(), order.getClient()));
-        orderList.removeIf(order -> order.getNumber() == number);
-        log.info("Completed order by number `" + number + "` has been successfully deleted");
+                .forEach(order -> log.trace("Order {} for {} is now issued ", order.getNumber(), order.getClient()));
+        if (!queueOrder.removeIf(order -> order.getNumber() == number)) {
+            log.trace("Wrong remove order with number: {}", number);
+        }
+        log.trace("Completed order by number `{}` has been successfully deleted", number);
     }
 
     public void add(Order order) {
-        log.info("Start method ADD new order: " + order.getClient());
+        log.trace("Start method ADD new order:{}", order.getClient());
         order.setNumber(totalNumber++);
-        orderList.add(order);
-        log.info("Order added successfully: " + order);
-        System.out.printf("NEW Order #%d for %s",
-                order.getNumber(), order.getClient());
-        System.out.println();
-        log.info("End method ADD new order: " + order);
+        queueOrder.add(order);
+        log.trace("Order added successfully: {}", order);
+        log.trace("NEW Order {} for {}", order.getNumber(), order.getClient());
+        log.trace("End method ADD new order: {}", order);
     }
 
     public void draw() {
-        log.info("Start method DRAW all orders");
-        for (Order order : orderList) {
-            System.out.println(order);
+        log.trace("Start method DRAW all orders");
+        for (Order order : queueOrder) {
+            log.trace(order.toString());
         }
-        log.info("End method DRAW all orders");
+        log.trace("End method DRAW all orders");
     }
 }

@@ -1,39 +1,52 @@
-INFO  | 2023-03-07 21:38:19 | [main] order.MainApp (MainApp.java:12) -- [] Start board
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:39) -- [] Start method ADD new order: Serhii
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] Order added successfully: 1 | Serhii
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:46) -- [] End method ADD new order: 1 | Serhii
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:39) -- [] Start method ADD new order: Iryna
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] Order added successfully: 2 | Iryna
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:46) -- [] End method ADD new order: 2 | Iryna
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:39) -- [] Start method ADD new order: Alex
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] Order added successfully: 3 | Alex
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:46) -- [] End method ADD new order: 3 | Alex
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:39) -- [] Start method ADD new order: Maxim
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] Order added successfully: 4 | Maxim
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:46) -- [] End method ADD new order: 4 | Maxim
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:39) -- [] Start method ADD new order: Mykola
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] Order added successfully: 5 | Mykola
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:46) -- [] End method ADD new order: 5 | Mykola
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:39) -- [] Start method ADD new order: Yaroslav
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] Order added successfully: 6 | Yaroslav
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:46) -- [] End method ADD new order: 6 | Yaroslav
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:50) -- [] Start method DRAW all orders
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:54) -- [] End method DRAW all orders
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:21) -- [] Current order for delivery: 1 | Serhii
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:26) -- [] Completed order `1 | Serhii' has been successfully deleted
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:35) -- [] Completed order by number `4` has been successfully deleted
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:21) -- [] Current order for delivery: 2 | Iryna
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:26) -- [] Completed order `2 | Iryna' has been successfully deleted
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:39) -- [] Start method ADD new order: Nikita
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] Order added successfully: 7 | Nikita
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:46) -- [] End method ADD new order: 7 | Nikita
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:21) -- [] Current order for delivery: 3 | Alex
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:26) -- [] Completed order `3 | Alex' has been successfully deleted
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:50) -- [] Start method DRAW all orders
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:54) -- [] End method DRAW all orders
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:35) -- [] Completed order by number `7` has been successfully deleted
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:39) -- [] Start method ADD new order: Kseniia
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] Order added successfully: 8 | Kseniia
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:46) -- [] End method ADD new order: 8 | Kseniia
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:50) -- [] Start method DRAW all orders
-INFO  | 2023-03-07 21:38:19 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:54) -- [] End method DRAW all orders
+TRACE | 2023-03-08 22:51:26 | [main] order.MainApp (MainApp.java:12) -- [] Start board
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:38) -- [] Start method ADD new order:Serhii
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:41) -- [] Order added successfully: 1 | Serhii
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] NEW Order 1 for Serhii
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:43) -- [] End method ADD new order: 1 | Serhii
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:38) -- [] Start method ADD new order:Iryna
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:41) -- [] Order added successfully: 2 | Iryna
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] NEW Order 2 for Iryna
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:43) -- [] End method ADD new order: 2 | Iryna
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:38) -- [] Start method ADD new order:Alex
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:41) -- [] Order added successfully: 3 | Alex
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] NEW Order 3 for Alex
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:43) -- [] End method ADD new order: 3 | Alex
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:38) -- [] Start method ADD new order:Maxim
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:41) -- [] Order added successfully: 4 | Maxim
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] NEW Order 4 for Maxim
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:43) -- [] End method ADD new order: 4 | Maxim
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:38) -- [] Start method ADD new order:Mykola
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:41) -- [] Order added successfully: 5 | Mykola
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] NEW Order 5 for Mykola
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:43) -- [] End method ADD new order: 5 | Mykola
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:38) -- [] Start method ADD new order:Yaroslav
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:41) -- [] Order added successfully: 6 | Yaroslav
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] NEW Order 6 for Yaroslav
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:43) -- [] End method ADD new order: 6 | Yaroslav
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:20) -- [] Current order for delivery: 1 | Serhii
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:21) -- [] Order 1 for Serhii is now issued
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:24) -- [] Completed order `1 | Serhii' has been successfully deleted
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:30) -- [] Order 4 for Maxim is now issued 
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:34) -- [] Completed order by number `4` has been successfully deleted
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:20) -- [] Current order for delivery: 2 | Iryna
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:21) -- [] Order 2 for Iryna is now issued
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:24) -- [] Completed order `2 | Iryna' has been successfully deleted
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:38) -- [] Start method ADD new order:Nikita
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:41) -- [] Order added successfully: 7 | Nikita
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] NEW Order 7 for Nikita
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:43) -- [] End method ADD new order: 7 | Nikita
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:20) -- [] Current order for delivery: 3 | Alex
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:21) -- [] Order 3 for Alex is now issued
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:24) -- [] Completed order `3 | Alex' has been successfully deleted
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:30) -- [] Order 7 for Nikita is now issued 
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:34) -- [] Completed order by number `7` has been successfully deleted
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:38) -- [] Start method ADD new order:Kseniia
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:41) -- [] Order added successfully: 8 | Kseniia
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:42) -- [] NEW Order 8 for Kseniia
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:43) -- [] End method ADD new order: 8 | Kseniia
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:47) -- [] Start method DRAW all orders
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:49) -- [] 5 | Mykola
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:49) -- [] 6 | Yaroslav
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:49) -- [] 8 | Kseniia
+TRACE | 2023-03-08 22:51:26 | [main] order.CoffeeOrderBoard (CoffeeOrderBoard.java:51) -- [] End method DRAW all orders
+TRACE | 2023-03-08 22:51:26 | [main] order.MainApp (MainApp.java:28) -- [] End board
